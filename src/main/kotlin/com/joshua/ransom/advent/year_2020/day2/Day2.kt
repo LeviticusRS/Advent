@@ -1,4 +1,4 @@
-package com.joshua.ransom.advent.year_2020.day1
+package com.joshua.ransom.advent.year_2020.day2
 
 import com.joshua.ransom.advent.year_2020.Puzzle
 
@@ -7,7 +7,7 @@ object Day2 : Puzzle<List<String>>(2) {
         return input.toList()
     }
 
-    override fun solvePart1(input: List<String>): String? {
+    override fun solvePart1(input: List<String>): String {
         var valid = 0
         for (line in input) {
             val validationRequirements = line.substringBefore(" ").split("-")
@@ -22,7 +22,7 @@ object Day2 : Puzzle<List<String>>(2) {
         return valid.toString()
     }
 
-    override fun solvePart2(input: List<String>): String? {
+    override fun solvePart2(input: List<String>): String {
         var valid = 0
         for (line in input) {
             val validationRequirements = line.substringBefore(" ").split("-")

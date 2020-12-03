@@ -1,9 +1,10 @@
 package com.joshua.ransom.advent.year_2020
 
-import com.joshua.ransom.advent.year_2020.day1.Day2
+import com.joshua.ransom.advent.year_2020.day3.Day3
+
 
 fun main() {
-    val puzzles = listOf<Puzzle<*>>(Day2)
+    val puzzles = listOf<Puzzle<*>>(Day3)
 
     for (puzzle in puzzles) {
         solve(puzzle)

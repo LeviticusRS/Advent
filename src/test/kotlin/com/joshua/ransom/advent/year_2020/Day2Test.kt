@@ -1,6 +1,6 @@
 package com.joshua.ransom.advent.year_2020
 
-import com.joshua.ransom.advent.year_2020.day1.Day2
+import com.joshua.ransom.advent.year_2020.day2.Day2
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
